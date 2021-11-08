@@ -1,7 +1,8 @@
 import Navbar from "./components/Navbar";
 import Stories from "./components/stories/Stories";
 import Posts from './components/posts/Posts'
-
+import Sidebar from "./components/sidebar/Sidebar";
+import Mobile from './components/Mobile'
 function App() {
   return (
     <div class="root">
@@ -13,9 +14,10 @@ function App() {
 
         </div>
 
-        <Navbar />
+        <Sidebar />
 
       </div>
+      <Mobile />
     </div>
 
   )

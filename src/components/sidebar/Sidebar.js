@@ -1,4 +1,4 @@
-import Sugestions from './sugestions/Sugestions'
+import Sugestions from './Sugestions'
 import Links from './Links'
 
 export default function Sidebar() {
