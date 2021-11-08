@@ -7,10 +7,13 @@ function App() {
     <div class="root">
       <Navbar />
       <div class="corpo">
-        <div class = "esquerda">
-         <Stories /> 
-         <Posts />
+        <div class="esquerda">
+          <Stories />
+          <Posts />
+
         </div>
+
+        <Navbar />
 
       </div>
     </div>
