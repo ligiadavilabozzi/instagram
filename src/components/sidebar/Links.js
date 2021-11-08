@@ -1,6 +1,6 @@
 export default function Links() {
     return (
-      <div class="fundo-mobile">
+      <div class="footer-mobile">
         <ion-icon name="home"></ion-icon>
         <ion-icon name="search-outline"></ion-icon>
         <ion-icon name="add-circle-outline"></ion-icon>

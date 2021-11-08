@@ -4,7 +4,7 @@ export default function Navbar() {
             <div class="container">
                 <div class="logo">
                     <ion-icon name="logo-instagram"></ion-icon>
-                    <div class="separador"></div>
+                    <div class="separator"></div>
                     <img src="assets/img/logo.png" />
                 </div>
 
@@ -16,18 +16,18 @@ export default function Navbar() {
                     <img src="assets/img/logo.png" />
                 </div>
 
-                <div class="pesquisa">
+                <div class="searchBar">
                     <input type="text" placeholder="Pesquisar" />
                 </div>
 
-                <div class="icones">
+                <div class="icons">
                     <ion-icon name="paper-plane-outline"></ion-icon>
                     <ion-icon name="compass-outline"></ion-icon>
                     <ion-icon name="heart-outline"></ion-icon>
                     <ion-icon name="person-outline"></ion-icon>
                 </div>
 
-                <div class="icones-mobile">
+                <div class="icons-mobile">
                     <ion-icon name="paper-plane-outline"></ion-icon>
                 </div>
             </div>

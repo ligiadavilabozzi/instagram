@@ -7,8 +7,8 @@ function App() {
   return (
     <div class="root">
       <Navbar />
-      <div class="corpo">
-        <div class="esquerda">
+      <div class="content">
+        <div class="stories-and-posts">
           <Stories />
           <Posts />
 

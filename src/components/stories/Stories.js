@@ -12,7 +12,7 @@ export default function Stories() {
         <Story img="assets/img/filomoderna.svg" name="filomoderna" />
         <Story img="assets/img/memeriagourmet.svg" name="memeriagourmet" />
 
-        <div class="setinha">
+        <div class="circle-arrow">
             <ion-icon name="chevron-forward-circle"></ion-icon>
         </div>
     </div>

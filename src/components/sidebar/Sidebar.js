@@ -5,9 +5,9 @@ export default function Sidebar() {
     return (
         <div class="sidebar">
 
-            <div class="usuario">
+            <div class="user">
                 <img src="assets/img/catanacomics.svg" />
-                <div class="texto">
+                <div class="text">
                     <strong>catanacomics</strong>
                     Catana
                 </div>
