@@ -3,7 +3,6 @@ import Sugestion from './Sugestion'
 export default function Sugestions() {
     return (
         <div class="sugestions">
-
             <div class="titulo">
                 Sugestões para você
                 <div>Ver tudo</div>
@@ -14,13 +13,11 @@ export default function Sugestions() {
                 name="bad.vibes.memes"
                 reason="Segue você"
             />
-
             <Sugestion
                 imgUser="assets/img/razoesparaacreditar.svg"
                 name="razoesparaacreditar"
                 reason="Novo no Instagram"
             />
-
             <Sugestion
                 imgUser="assets/img/adorable_animals.svg"
                 name="adorable_animals"

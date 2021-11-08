@@ -1,9 +1,10 @@
 export default function Post(props) {
     return (
         <div class="post">
+
             <div class="post-header">
                 <div class="user">
-                    <img src={props.imgUser} />
+                    <img src={props.imgUser} alt='user' />
                     {props.nameUser}
                 </div>
                 <div class="actions">
@@ -12,7 +13,7 @@ export default function Post(props) {
             </div>
 
             <div class="post-content">
-                <img src={props.imgContent} />
+                <img src={props.imgContent} alt='content' />
             </div>
 
             <div class="post-footer">
@@ -28,7 +29,7 @@ export default function Post(props) {
                 </div>
 
                 <div class="likes">
-                    <img src={props.imgLike} />
+                    <img src={props.imgLike} alt='like' />
                     <div class="text">
                         Curtido por <strong>{props.nameLike}</strong> e <strong>outras {props.numLikes} pessoas</strong>
                     </div>

@@ -3,7 +3,6 @@ import Post from './Post'
 export default function Posts() {
     return (
         <div class="posts">
-
             <Post
                 imgUser="assets/img/meowed.svg"
                 nameUser="meowed"
@@ -12,7 +11,6 @@ export default function Posts() {
                 nameLike="respondeai"
                 numLikes='101.523'
             />
-
             <Post
                 imgUser="assets/img/barked.svg"
                 nameUser="barked"
@@ -21,7 +19,6 @@ export default function Posts() {
                 nameLike="adorable_animals"
                 numLikes='99.159'
             />
-
         </div>
     )
 }
